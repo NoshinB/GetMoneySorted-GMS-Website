@@ -17,7 +17,7 @@ body , html {
     height: 100%;
     font-family: 'Raleway', sans-serif;
     background-image: url("Backgroundresized.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: top center;
 }
 
@@ -193,11 +193,11 @@ h1 {
   align-items: center;
   align-content: center;
   text-align: center;
-  border-radius: 65px;
+  border-radius: 80px;
   border-color: transparent;
   border: 0px solid;
   box-shadow: 5px 10px 18px #888888;
-  background-color: transparent;
+  background-color: transparent !important;
   margin-right: 12px;
 }
 
@@ -206,4 +206,130 @@ h1 {
   content: "";
   display: table;
   clear: both;
+}
+
+.top-left {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 5px;
+  font-size: 40px;
+}
+
+.top-left1 {
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 5px;
+}
+
+.top-left2 {
+  position: absolute;
+  top: 60px;
+  left: 260px;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.top-left3 {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 70px;
+  text-align: left;
+  color: #E9E341;
+  font-weight: bold;
+  text-shadow: 2px 2px white;
+}
+
+.top-left4 {
+  position: absolute;
+  top: 430px;
+  left: 35px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+}
+
+.top-left5 {
+  position: absolute;
+  top: 500px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: left;
+  color: black;
+  font-size: 18px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 120px;
+  left: 30px;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 5px;
+  font-size: 40px;
+}
+
+.bottom-left1 {
+  position: absolute;
+  bottom: 80px;
+  left: 30px;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 5px;
+}
+
+.bottom-left2 {
+  position: absolute;
+  bottom: 60px;
+  left: 260px;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.bottom-left3 {
+  position: absolute;
+  bottom: 200px;
+  left: 290px;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 70px;
+  text-align: left;
+  color: #E9E341;
+  font-weight: bold;
+  text-shadow: 2px 2px white;
+}
+
+.bottom-left4 {
+  position: absolute;
+  bottom: 520px;
+  left: 35px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+}
+
+.bottom-left5 {
+  position: absolute;
+  bottom: 430px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: left;
+  color: black;
+  font-size: 18px;
 }
